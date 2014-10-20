@@ -21,6 +21,7 @@
 		65E963FA19F593C400249E9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E963DC19F593C400249E9B /* UIKit.framework */; };
 		65E9640219F593C400249E9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65E9640019F593C400249E9B /* InfoPlist.strings */; };
 		65E9640419F593C400249E9B /* SMIRKTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E9640319F593C400249E9B /* SMIRKTestTests.m */; };
+		65E9640F19F59BCC00249E9B /* SMIRKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E9640E19F59BCC00249E9B /* SMIRKTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		65E963FF19F593C400249E9B /* SMIRKTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMIRKTestTests-Info.plist"; sourceTree = "<group>"; };
 		65E9640119F593C400249E9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65E9640319F593C400249E9B /* SMIRKTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMIRKTestTests.m; sourceTree = "<group>"; };
+		65E9640D19F59BCC00249E9B /* SMIRKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMIRKTest.h; sourceTree = SOURCE_ROOT; };
+		65E9640E19F59BCC00249E9B /* SMIRKTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMIRKTest.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				65E963E719F593C400249E9B /* SMIRKAppDelegate.h */,
 				65E963E819F593C400249E9B /* SMIRKAppDelegate.m */,
 				65E963EA19F593C400249E9B /* Main.storyboard */,
+				65E9640D19F59BCC00249E9B /* SMIRKTest.h */,
+				65E9640E19F59BCC00249E9B /* SMIRKTest.m */,
 				65E963ED19F593C400249E9B /* SMIRKViewController.h */,
 				65E963EE19F593C400249E9B /* SMIRKViewController.m */,
 				65E963F019F593C400249E9B /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E9640F19F59BCC00249E9B /* SMIRKTest.m in Sources */,
 				65E963EF19F593C400249E9B /* SMIRKViewController.m in Sources */,
 				65E963E519F593C400249E9B /* main.m in Sources */,
 				65E963E919F593C400249E9B /* SMIRKAppDelegate.m in Sources */,
